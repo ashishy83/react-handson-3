@@ -42,7 +42,7 @@ const Form = () => {
           {state.employees.map((value, index) => {
             return (
               <span key={index}>
-                {value.Name} | {value.Department} | {value.Rating}{" "}
+                Name: {value.Name} | Department: {value.Department} | Rating: {value.Rating}{" "}
               </span>
             );
           })}
